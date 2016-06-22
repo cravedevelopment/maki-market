@@ -8,7 +8,6 @@
   "frameworks": {
     "net451": {
       "dependencies": {
-        "EntityFramework": "6.1.3"
       }
     },
     "dotnet5.4": {
@@ -20,5 +19,8 @@
         "System.Threading": "4.0.11-beta-23516"
       }
     }
+  },
+  "dependencies": {
+    "EntityFramework.Core": "7.0.0-rc1-final"
   }
 }

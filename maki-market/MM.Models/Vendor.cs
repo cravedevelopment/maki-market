@@ -1,7 +1,10 @@
-﻿namespace MM.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace MM.Models
 {
     public class Vendor
     {
+        [Key]
         public int Id { get; set; }
         public string VendorName { get; set; }
         public string Address { get; set; }
